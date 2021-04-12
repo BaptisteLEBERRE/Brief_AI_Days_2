@@ -6,7 +6,7 @@ L'IA peut permettre de résoudre de nombreux problèmes complexes que l'informat
 
 Ici, notre problème est l'analyse de chiffres manuscrits. Comment obtenir un programme capable de "deviner" à quel chiffre correspond une image de chiffre dessiné par un utilisateur comme ceci ?
 
-![image-5.png](attachment:image.png)
+![image-5.png](image-5.png)
 
 De nos jours, avec la forte puissance de calcul des ordinateurs et toutes les ressources gratuites et libres qui existent, le *machine learning* et plus particulièrement le *deep learning* avec ses réseaux de neurones profonds est particulièrement adapté à résoudre ce type de problème sur des images.
 
@@ -14,7 +14,7 @@ Pour un ordinateur, les images en noir et blanc ne sont que des tableaux de vale
 
 Par le jeu d'algorithmes mathématiques que nous allons implémenter en python, l'ordinateur va pouvoir "apprendre" à déceler des motifs sur ces pixels et comprendre les images c'est-à-dire en extraire du sens. C'est de cette façon qu'une machine peut "voir".
 
-![image-6.png](attachment:image-2.png)
+![image-6.png](image-6.png)
 
 L'idée est d'entraîner un modèle d'IA avec ce type d'images de chiffres manuscrits étiquetés. On appelle cela l'apprentissage supervisé car l'algorithme dispose à la fois des questions (les dessins de chiffres) et des réponses  (les entiers correspondants) lors de son apprentissage.
 
